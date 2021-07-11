@@ -7,11 +7,11 @@
 
 .page {
     background: #161615;
-
 }
 
 .wrap {
     padding-left: calc((100% - 1190px) / 2);
+    padding-right: calc((100% - 1190px) / 2);
     min-width: 1190px;
 }
 

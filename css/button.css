@@ -21,13 +21,12 @@
 }
 
 .button:hover {
-    border: 1px solid silver;
-    box-shadow:  0 0 2px silver, 0 0 4px #ffffff;
+    border: unset;
+    box-shadow:  0 0 4px silver, 0 0 6px #ffffff;
 }
 
 .button:active {
-    border: unset;
-    text-shadow: unset;
+    border: 1px solid silver;
     box-shadow:  0 0 2px silver, 0 0 4px #ffffff;
     opacity: 0.9;
     transition: unset;
