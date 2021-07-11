@@ -10,6 +10,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="css/button.css">
+        <link rel="stylesheet" href="css/home__header.css">
         <link rel="stylesheet" href="css/main.css">
 
         <title>Potracheno NC</title>
@@ -18,23 +20,30 @@
     <body>
         <div class="page">
             <header class="home__header">
-                <div class="header">
-                    <div class="menu-line">
+                <div class="header wrap">
+                    <div class="menu-line block_display_flex">
                         <div class="menu-line__logo">
                             <img src="image/potracheno-logo.svg" alt="Potracheno logo">
                         </div>
 
-                        <div class="menu-line__main-nav">
-                            <nav class="main-nav">
+                        <div class="menu-line__main-nav block_display_flex block_align-items_center">
+                            <nav class="main-nav block_display_flex">
                                 <div class="main-nav__item"><a href="#">Главная</a></div>
                                 <div class="main-nav__item"><a href="#">Меню</a></div>
                                 <div class="main-nav__item"><a href="#">Еще...</a></div>
                             </nav>
 
-                            <div class="menu-line__button-blok">
-                                <button></button>
-                                <button></button>
-                                <button></button>
+                            <div class="menu-line__button-block block_display_flex">
+                                <button class="button-for-call button block_display_flex block_flex-flow_column block_align-items_center block_justify-content_center">
+                                    <img src="image/phone-icon.svg" alt="Button for call">
+                                </button>
+
+                                <button class="button-for-client button button__theme_red block_display_flex block_flex-flow_column block_align-items_center block_justify-content_center">
+                                    <img src="image/user-head.svg" alt="Button for client">
+                                    <img src="image/user-body.svg" alt="Button for client">
+                                </button>
+
+                                <button class="button-reserve button button__theme_red">Забронировать</button>
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,35 @@
+.button {
+    font-size: 18px;
+    font-weight: 500;
+
+    border-radius: 7px;
+    border: unset;
+    cursor: pointer;
+    transition: text-shadow 300ms, box-shadow 300ms, opacity 300ms, border 300ms;
+    opacity: 1;
+}
+
+.button__theme_white {
+    color: #CB3B48;
+    background: #ffffff;
+}
+
+.button__theme_red {
+    color: #ffffff;
+    background: #CB3B48;
+
+}
+
+.button:hover {
+    border: 1px solid silver;
+    box-shadow:  0 0 2px silver, 0 0 4px #ffffff;
+}
+
+.button:active {
+    border: unset;
+    text-shadow: unset;
+    box-shadow:  0 0 2px silver, 0 0 4px #ffffff;
+    opacity: 0.9;
+    transition: unset;
+}
+
